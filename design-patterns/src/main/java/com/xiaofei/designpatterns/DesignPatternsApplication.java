@@ -3,6 +3,9 @@ package com.xiaofei.designpatterns;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author xiaofeijujutou
+ */
 @SpringBootApplication
 public class DesignPatternsApplication {
 
