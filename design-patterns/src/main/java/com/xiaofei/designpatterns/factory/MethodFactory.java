@@ -1,8 +1,6 @@
 package com.xiaofei.designpatterns.factory;
 
 import com.xiaofei.designpatterns.factory.pizza.Pizza;
-import org.springframework.beans.factory.BeanFactory;
-import org.springframework.context.ApplicationContext;
 
 /**
  * @Description: Created by IntelliJ IDEA.
@@ -13,7 +11,10 @@ import org.springframework.context.ApplicationContext;
 
 public class MethodFactory {
     public static void main(String[] args) {
-        //TODO 待完善;
+        //TODO 待完善;方法工厂模式设计的条件:
+        //	用户先已经指定了一个种类的pizza, 然后对里面的种类再次进行挑选;
+        //  方法工厂应该要按照这种条件设计
+        //  视频: 直接写在构造方法里面, NJ工厂, HY工厂, 然后传参来指定工厂生产什么pizza;
     }
 }
 
