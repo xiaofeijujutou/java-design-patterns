@@ -28,7 +28,8 @@ public class AbstractFactory {
 class OrderPizza{
     /**
      * 订单模块聚合工厂,A披萨订单聚合A工厂,B披萨模块聚合B工厂;
-     * 可以通过构造器和set来更换工厂,但是一般一个订单对应一个工厂
+     * 可以通过构造器和set来更换工厂,但是一般一个订单对应一个工厂;
+     * 高层模块不直接依赖具体实现,而是依赖抽象;
      */
     private IAbstractFactory factory;
 
