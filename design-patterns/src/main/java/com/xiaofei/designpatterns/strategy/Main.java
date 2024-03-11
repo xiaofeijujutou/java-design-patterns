@@ -11,6 +11,13 @@ package com.xiaofei.designpatterns.strategy;
 public class Main {
     public static void main(String[] args) {
         FestivalController festivalController = new FestivalController();
+
+        festivalController.diyFestivalCount(new Festival() {
+            @Override
+            public void show() {
+                System.out.println("自定义策略");
+            }
+        });
         for (int i = 0; i < 60; i++) {
             festivalController.getFestivalCount();
         }

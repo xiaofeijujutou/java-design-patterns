@@ -22,4 +22,8 @@ public class FestivalController {
     public void getFestivalCount(){
         festival.get(Math.abs(time.getTime()) % festival.size()).show();
     }
+
+    public void diyFestivalCount(Festival festival){
+        festival.show();
+    }
 }
