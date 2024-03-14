@@ -6,7 +6,7 @@ import java.util.concurrent.atomic.LongAdder;
 /**
  * @Description: Created by IntelliJ IDEA.
  * 具体迭代器,是一次性使用品;
- * 给一个List<Student>生成一个foreach的简易版本;
+ * 给一个List<Student>生成一个foreach的简易版本(通过hasNext,next两个方法实现);
  * @Author : 小肥居居头
  * @create 2024/3/13 16:55
  */
